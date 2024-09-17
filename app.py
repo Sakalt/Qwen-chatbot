@@ -68,7 +68,7 @@ def model_chat(query: Optional[str], history: Optional[History], system: str
 
 
 with gr.Blocks() as demo:
-    gr.Markdown("""<center><font size=8>Qwen2.5-72B-instruct Chat👾</center>""")
+    gr.Markdown("""<center><font size=8>Qwen2.5-72B-Instruct👾</center>""")
 
     with gr.Row():
         with gr.Column(scale=3):
